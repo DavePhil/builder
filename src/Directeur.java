@@ -6,6 +6,7 @@ import monteur.Pizza;
 public class Directeur {
     private MonteurPizza monteurPizza;
 
+
     public void setMonteurPizza(MonteurPizza monteurPizza) {
         this.monteurPizza = monteurPizza;
     }

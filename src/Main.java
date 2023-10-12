@@ -9,6 +9,7 @@ public class Main {
         MonteurPizza monteurPizzaReine = new MonteurPizzaReine();
         MonteurPizza monteurPizzaPiquante = new MonteurPizzaPiquante();
         MonteurPizza monteurPizzaLocale = new MonteurPizzaLocale();
+
         Directeur directeur = new Directeur();
         System.out.println("************** Debut **************");
         System.out.println("Construction de la pizza Reine");

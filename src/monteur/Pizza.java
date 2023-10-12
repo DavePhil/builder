@@ -6,6 +6,7 @@ public class Pizza {
     private String sauce;
     private String garniture;
 
+
     public void setPate(String pate) {
         this.pate = pate;
     }

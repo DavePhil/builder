@@ -8,6 +8,7 @@ public class MonteurPizzaReine extends MonteurPizza{
         creerPizza();
         monterSauce();
         monterPate();
+
         monterGarniture();
         return pizza;
     }

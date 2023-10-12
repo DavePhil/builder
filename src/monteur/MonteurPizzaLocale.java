@@ -1,12 +1,13 @@
 package monteur;
 
 public class MonteurPizzaLocale extends MonteurPizza {
-    @Override
+
     public Pizza getPizza() {
         creerPizza();
         monterSauce();
         monterPate();
         monterGarniture();
+
         return pizza;
     }
 

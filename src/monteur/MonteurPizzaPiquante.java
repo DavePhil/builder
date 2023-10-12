@@ -9,6 +9,7 @@ public class MonteurPizzaPiquante extends MonteurPizza {
         monterSauce();
         monterPate();
         monterGarniture();
+
         return pizza;
     }
     @Override
