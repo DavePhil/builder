@@ -5,6 +5,7 @@ package monteur;
 public class MonteurPizzaReine extends MonteurPizza{
     @Override
     public Pizza getPizza() {
+        creerPizza();
         monterSauce();
         monterPate();
         monterGarniture();
