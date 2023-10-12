@@ -2,12 +2,7 @@ package monteur;
 
 public abstract class MonteurPizza {
     protected Pizza pizza;
-    public Pizza getPizza(){
-        monterSauce();
-        monterPate();
-        monterGarniture();
-        return pizza;
-    }
+    public abstract Pizza getPizza();
     public void creerPizza(){pizza = new Pizza();}
     public abstract void monterPate();
     public abstract void monterSauce();

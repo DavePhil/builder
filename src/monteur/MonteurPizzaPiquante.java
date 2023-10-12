@@ -4,6 +4,13 @@ package monteur;
 // classe qui dit comment construire la pizza piquante
 public class MonteurPizzaPiquante extends MonteurPizza {
     @Override
+    public Pizza getPizza() {
+        monterSauce();
+        monterPate();
+        monterGarniture();
+        return pizza;
+    }
+    @Override
     public void monterPate() {
         pizza.setPate("feuilletee");
     }

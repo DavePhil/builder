@@ -1,8 +1,6 @@
 package monteur;
 
-// classe concrète qui dit comment construire en implémentant les méthodes de la classe abstraite
-// Ici, elle dit comment construire la pizza reine
-public class MonteurPizzaReine extends MonteurPizza{
+public class MonteurPizzaLocale extends MonteurPizza {
     @Override
     public Pizza getPizza() {
         monterSauce();
@@ -10,18 +8,19 @@ public class MonteurPizzaReine extends MonteurPizza{
         monterGarniture();
         return pizza;
     }
+
     @Override
     public void monterPate() {
-        pizza.setPate("croisee");
+        pizza.setPate("Feuille de Macabo");
     }
 
     @Override
     public void monterSauce() {
-        pizza.setSauce("douce");
+        pizza.setPate("Sauce Jaune");
     }
 
     @Override
     public void monterGarniture() {
-        pizza.setGarniture("jambon+champignon");
+        pizza.setGarniture("Escargot");
     }
 }
