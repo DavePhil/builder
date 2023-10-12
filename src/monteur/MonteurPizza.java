@@ -3,6 +3,7 @@ package monteur;
 public abstract class MonteurPizza {
     protected Pizza pizza;
     public Pizza getPizza(){
+        creerPizza();
         monterSauce();
         monterPate();
         monterGarniture();
